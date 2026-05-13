@@ -1,3 +1,9 @@
+INTEGRANTES
+- Samuel Rios Calderon
+- Jeronimo Colonia Amador
+- Juan Esteban Panesso Bernal
+- Byron Stiven Zapata Zapata
+
 # Concertix — Backend
 
 API REST del proyecto Concertix, una plataforma de venta de boletas para conciertos. Hecho con Node.js, Express y PostgreSQL (Neon) como base de datos principal. También usa Firebase Realtime Database para las funciones en tiempo real.
