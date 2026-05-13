@@ -119,10 +119,13 @@ npm install
 
 2. Crear el archivo `.env` con:
 ```
-DATABASE_URL="postgresql://..."
-JWT_SECRET="tu_secreto"
-JWT_REFRESH_SECRET="tu_secreto_refresh"
-FIREBASE_DATABASE_URL="https://tu-proyecto.firebaseio.com"
+PORT=3000
+DATABASE_URL="postgresql://neondb_owner:npg_znVBChAi0Ql8@ep-royal-lake-apbd4n31-pooler.c-7.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+JWT_SECRET="tm_s3cr3t_k3y_2026_xK9pLmNqRv"
+JWT_ACCESS_EXPIRES="15m"
+JWT_REFRESH_SECRET="tm_r3fr3sh_s3cr3t_2026_zP4wQnYv"
+JWT_REFRESH_EXPIRES="7d"
+FIREBASE_DATABASE_URL="https://concertix-1c46e-default-rtdb.firebaseio.com"
 ```
 
 3. Colocar el archivo de credenciales de Firebase en `prisma/firebase-admin-key.json`
